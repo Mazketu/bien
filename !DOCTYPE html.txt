@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo CSS</title>
+	<link rel="stylesheet" type="text/css" href="trabajo.css" />
+
+</head>
+<body>
+    <header>
+        <div class="titu">
+            <a id="arriba">ejemplo css</a>		 
+            <a id="abajo">Por Designers Lab</a>
+        </div>		
+     </header>
+	 
+        <nav>
+            <ul>
+                <li><a href="#">ACERCA DE</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">SOPORTE AL CLIENTE </a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div class="linea">      
+          <h2 id="contenido-titulo">¡BIENVENIDO A ESTA WEB!</h2>  
+          <h3 id="novedades">NOVEDADES</h3>    
+        </div>
+		
+    <div class="contenido">
+        <main>
+            <p>
+                <b>CSS</b> es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con 
+                <a href="#">HTML y XHTML</a>. CSS es la mejor forma de separar los contenidos y su presentación, y es imprescindible para crear páginas web complejas.
+            </p>
+
+            <h2>UNOS POCOS EJEMPLOS DE ETIQUETAS COMUNES</h2>
+			
+            <p>Este es un ejemplo de un párrafo seguido por una etiqueta blockquote.</p>
+            <blockquote>
+                Pellentesque tristique ante ut risus, Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio.
+            </blockquote>
+			
+            <h4>CABECERA DE NIVEL 3</h4>
+
+            <p>Ejemplo de la lista desordenada:</p>
+            <ul>
+                <li>Elemento de lista uno</li>
+                <li>Elemento de lista dos</li>
+            </ul>
+            <p>Ejemplo de la lista ordenada:</p>
+            <ol>
+                <li>Elemento de lista uno</li>
+                <li>Elemento de lista dos</li>
+                <li>Elemento de lista tres</li>
+            </ol>
+        </main>
+		
+        <aside>
+		
+		 <div class="distancia">
+            <section>
+               
+                <ul>
+                    <li><a href="#">Febrero 2007 </a>(23)</li>
+					<div class="separador"></div> 
+                    <li><a href="#">Enero 2007 </a>(9)</li>
+					<div class="separador"></div> 
+                    <li><a href="#">Diciembre 2006 </a>(31)</li>
+					<div class="separador"></div> 
+                    <li><a href="#">Noviembre 2006 </a>(30)</li>
+					<div class="separador"></div> 
+                </ul>
+            </section>
+            <section>
+                <h3>LOREM IPSUM DOLOR</h3>
+                <ul>
+                    <li><a href="#">Donec Dictum Metus</a></li>
+					<div class="separador"></div> 
+                    <li><a href="#">Ethan Rhoncus Volutpat</a></li>
+					<div class="separador"></div> 
+                    <li><a href="#">Integer Gravida Nibh</a></li>
+					<div class="separador"></div> 
+                    <li><a href="#">Maecenas Luctus Lectus</a></li>
+					<div class="separador"></div> 
+                    <li><a href="#">Nulla Vulputate Dolor Nibh</a></li>
+					<div class="separador"></div> 
+                    <li><a href="#">Nulla Luctus Eleifend</a></li>
+					<div class="separador"></div> 
+                </ul>
+            </section>
+        </aside>
+         </div>
+    <footer>
+        <p>Copyright © Desarrollo de un supuesto práctico. Diseñado por <a href="http://www.designerslab.com">www.designerslab.com</a></p>
+    </footer>
+</body>
+</html>
